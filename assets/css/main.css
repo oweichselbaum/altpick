@@ -1,0 +1,168 @@
+html, body {
+    background: #EEECED;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+a {
+    color: black;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 21%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+ul.footer {
+    float: right;
+}
+
+ul.footer li {
+    padding: 0 15px;
+    border-left: 1px solid;
+    margin: 30px 0 40px;
+    float: left;
+}
+
+ul.footer li:first-child {
+    border: none;
+}
+
+ul.footer li:last-child {
+    padding-right: 0;
+}
+
+.glyphicon-search {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color: #C1C1C1;
+}
+
+.row .links h3 {
+    margin: 30px 0 !important;
+}
+
+.social {
+    margin-top: 54px;
+    overflow: hidden;
+}
+
+.social img {
+    margin: 10px 0;
+}
+
+.social .left {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.social .right {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.blog {
+    margin-top: 45px;
+}
+
+.blog h3 {
+    font-size: 19px;
+}
+
+.blog ul {
+    list-style: square;
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+.blog ul li {
+    font-size: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .search {
+        margin-top: 20px;
+    }
+
+    .links {
+        text-align: center;
+    }
+    .social .right, .social .left {
+        padding: 0 15px;
+    }
+
+    .blog {
+        margin-top: 20px;
+    }
+    .blog h3 {
+        text-align: center;
+    }
+    ul.footer {
+        padding: 0 5px;
+        margin: 10px 0 30px;
+    }
+
+    ul.footer li {
+        margin: 5px 0;
+        padding: 0 10px;
+    }
+}

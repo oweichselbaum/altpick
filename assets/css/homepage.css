@@ -1,0 +1,80 @@
+.row.homepage h1 {
+    margin-bottom: 0;
+}
+
+.row.homepage h3 {
+    margin-top: 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+#carousel .item{
+    margin: 3px;
+}
+#carousel .item .image {
+    width: 100%;
+    height: 300px;
+    background: lightgray;
+}
+#carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h2 + .explore {
+    margin-left: -10px;
+}
+
+@media (max-width: 768px) {
+    .explore {
+        margin-left: -10px;
+    }
+}
+
+.explore:last-child {
+    padding-right: 0;
+}
+.explore {
+    position: relative;
+    padding-right: 0;
+}
+
+.explore a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.explore .image {
+    height: 250px;
+    background: lightblue;
+    margin-bottom: 10px;
+}
+
+.explore p {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.explore p span {
+    display: block;
+    font-weight: normal;
+}
+
+.inspire {
+    background: #D3D3D3;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.inspire .image {
+    background: lightgoldenrodyellow;
+    height: 78px;
+    margin: 10px 0;
+}
+
+.discover .image {
+    background: lightcoral;
+    height: 216px;
+}
